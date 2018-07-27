@@ -1,0 +1,53 @@
+.tabs {
+    &__navigation {
+        list-style-type: none;
+        margin:0;
+        
+        &-item {
+            display: inline-block;
+            background-color: #294969;
+            margin-right:4px;
+
+            a {
+                display: block;
+                padding: 10px;
+                text-decoration: none;
+
+                &:hover {
+                    background-color: #537294;
+                }
+            }
+
+            &--active {
+                background-color: #6180a3;
+
+                a {
+                    &:hover {
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+
+    &__content {
+        position: relative;
+        top:0;
+        height: 334px;
+        width: 100%;
+        background-color: #6180a3;
+    
+        &-item {
+            opacity: 0;
+            position: absolute;
+            width: 100%;
+            z-index: 1;
+            transition: all .2s ease-out;
+
+            &--active {
+                opacity: 1;
+                z-index: 2;
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+
+.site-header {
+    @mixin clearfix;
+    padding: 0 15px;
+
+    &__logo {
+        width: 100%;
+        text-align: center;
+        padding: 30px 0;
+
+        &__icon {
+            text-indent: -9999px;
+        }
+
+        @mixin atMedium {
+            width: auto;
+            display: inline-block;
+        }
+    }
+}
+

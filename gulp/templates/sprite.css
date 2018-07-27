@@ -1,0 +1,24 @@
+/* Do not edit modules/_sprite directly as it is generated automatically by Gulp */
+
+{{#shapes}}
+    {{#first}}
+        .icon {
+            background-image: url('/assets/images/sprites/{{{sprite}}}');
+        }
+
+        .icon--flipped {
+            transform: scaleX(-1);
+        }
+
+        .no-svg .icon {
+            background-image: url('/assets/images/sprites/{{#replaceSvgWithPng}}{{{sprite}}}{{/replaceSvgWithPng}}');
+        }
+    {{/first}}
+
+    .icon--{{base}} {
+        width: {{width.outer}}px;
+        height: {{height.outer}}px;
+        background-position: {{position.relative.xy}};
+        display: inline-block;
+    }
+{{/shapes}}

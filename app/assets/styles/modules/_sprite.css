@@ -1,0 +1,76 @@
+/* Do not edit modules/_sprite directly as it is generated automatically by Gulp */
+
+        .icon {
+            background-image: url('/assets/images/sprites/sprite-10cac70b.svg');
+        }
+
+        .icon--flipped {
+            transform: scaleX(-1);
+        }
+
+        .no-svg .icon {
+            background-image: url('/assets/images/sprites/sprite-10cac70b.png');
+        }
+
+    .icon--account {
+        width: 18.71px;
+        height: 18px;
+        background-position: 0 99.02857142857141%;
+        display: inline-block;
+    }
+
+    .icon--arrow-right {
+        width: 7px;
+        height: 12px;
+        background-position: 47.02247191011236% 62.26315789473684%;
+        display: inline-block;
+    }
+
+    .icon--facebook {
+        width: 9.55px;
+        height: 17px;
+        background-position: 42.26275292106014% 66.64788732394366%;
+        display: inline-block;
+    }
+
+    .icon--logo {
+        width: 184.83px;
+        height: 47.32px;
+        background-position: 0 0;
+        display: inline-block;
+    }
+
+    .icon--pinterest {
+        width: 17.1px;
+        height: 17px;
+        background-position: 33.97855866587254% 66.64788732394366%;
+        display: inline-block;
+    }
+
+    .icon--search {
+        width: 18.02px;
+        height: 18px;
+        background-position: 11.204934722721285% 99.02857142857141%;
+        display: inline-block;
+    }
+
+    .icon--shopping-bag {
+        width: 20.95px;
+        height: 20.44px;
+        background-position: 9.484913136238951% 70.04144464179988%;
+        display: inline-block;
+    }
+
+    .icon--slideshow-arrow {
+        width: 15.56px;
+        height: 22px;
+        background-position: 0 71.6969696969697%;
+        display: inline-block;
+    }
+
+    .icon--twitter {
+        width: 20.54px;
+        height: 17px;
+        background-position: 22.19992703392922% 66.64788732394366%;
+        display: inline-block;
+    }

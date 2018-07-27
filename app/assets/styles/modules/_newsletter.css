@@ -1,0 +1,28 @@
+.newsletter {
+    width: 100%;
+    background: $gray--light;
+    margin-top: 12px;
+
+
+    &__input {
+        background: #ededed;
+        border: none;
+        width: calc(100% - 61px);
+        padding: 15px;
+        margin: 0;
+        display: inline-block;
+        line-height: 26px;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__btn {
+        float: right;
+    }
+
+    ::-webkit-input-placeholder {
+        font-style: italic;
+    }
+}
